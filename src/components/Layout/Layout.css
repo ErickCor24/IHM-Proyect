@@ -1,0 +1,13 @@
+.right-section{
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.content-section{
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 95%;
+    background-color: #fafafa;
+    height: 85vh;
+}

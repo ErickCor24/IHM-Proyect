@@ -1,11 +1,12 @@
 import React from 'react'
+import './SideBar.css'
 import { Link } from 'react-router-dom'
 
 export function SideBar (){
     return(
         <>
-            <Link to="/matriculacion">Matriculación</Link>
-            <Link to="/vista">Vista</Link>
+            <section class="section content-modules">     
+            </section>
         </>
     )
 }
