@@ -8,6 +8,8 @@
     margin-top: 20px;
     box-sizing: border-box;
     width: 95%;
-    background-color: #fafafa;
+    background-color: #f0f0f0;
     height: 85vh;
+    box-shadow: 0 10px 25px 0 #0003;
+    border-radius: 5px;
 }

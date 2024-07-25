@@ -1,11 +1,11 @@
 import React from 'react'
 import './SideBar.css'
-import { Link } from 'react-router-dom'
 
-export function SideBar (){
+export function SideBar ({children}){
     return(
         <>
-            <section class="section content-modules">     
+            <section class="section content-modules">
+                {children}     
             </section>
         </>
     )

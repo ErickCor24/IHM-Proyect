@@ -1,8 +1,9 @@
 .content-modules {
+    color: #fff;
     padding: 10px;
     box-sizing: border-box;
     margin: 0;
-    width: 20vw;
+    width: 22vw;
     height: 100vh;
-    background-color: #222;
+    background: linear-gradient(to top, #252555 , #252525 80%);
 }
