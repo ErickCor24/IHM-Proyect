@@ -1,9 +1,8 @@
 .user-img{
-    background-color: #fff; 
     border-radius: 5px;
     border: 2px solid transparent;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .home-img{
@@ -17,7 +16,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    height: 75vh; 
+    height: 70vh; 
     justify-content: center;
 }
 
@@ -28,12 +27,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: 5px 0;
 }
 
 .label-user{
     color: #fff;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 0 7px;;
 }
 
@@ -42,34 +42,77 @@
     padding: 0;
 } 
 
-button{
+.btn-options{
     color:#fff;
     box-sizing: border-box;
     width: 100%;
     border: none;
     padding: 15px 0;
-    margin: 8px 0 ;
-    background-color: #242458;
+    margin: 4px 0 ;
+    background-color: transparent;
     border-radius: 5px;
-    transition: 0.2s;
+    transition: 0.3s ease;
     font-size: 1rem;
 }
 
-.div-btn{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .btn-home{
-    width: 50%;
+    border: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    background-color: #66a500;
+    transition: 0.2s;
 }
 .cursos-section{
     margin: 0;
     margin-top: 10px;
 }
 
-button:hover {
+.btn-options:hover {
     color: #000;
     background-color: #dbdbee;
+}
+
+.btn-home:hover {
+    background-color: #8ce400;
+}
+
+.logo {
+    margin: 0;
+    margin-top: 6vh;
+    width: 150px;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 220px;
+}
+
+.title{
+    text-align: center;
+}
+
+.user-info {
+    margin: 0;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-estudiante{
+    width: 24px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

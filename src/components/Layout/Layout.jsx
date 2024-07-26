@@ -11,7 +11,7 @@ export function Layout ({children}) {
                 <SideRequeriments/>
             </SideBar>      
             <div class="section right-section">
-                <Header/> 
+                {/* <Header/> */} 
                 <section class="section content-section">
                     {children}
                 </section>

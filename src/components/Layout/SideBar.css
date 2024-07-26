@@ -5,5 +5,7 @@
     margin: 0;
     width: 22vw;
     height: 100vh;
-    background: linear-gradient(to top, #252555 , #252525 80%);
+    /* background: linear-gradient(to bottom, #422040, #422040);  */
+    background-color:#224063 ;
+    box-shadow: 0 0 25px 0 #0008;
 }
