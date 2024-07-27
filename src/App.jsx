@@ -1,20 +1,17 @@
-import { Layout } from './components/Layout/Layout.jsx'
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
-import { SideBar } from './components/Layout/SideBar.jsx';
+import { RedirectSecretaria } from './components/Main/RedirectSecretaria.jsx';
 import { Matriculacion } from './components/Content/Matriculacion.jsx';
-import { Delete } from './components/Content/Delete.jsx';
-import { Update } from './components/Content/Update.jsx';
+import { Inicio } from './components/Main/Inicio.jsx';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
+import { RedirectDocente } from './components/Main/RedirectDocente.jsx';
 
 export function App(){
     return(
-        <BrowserRouter>       
-            <Layout>               
-                <Routes>
-                    <Route path='/Matriculacion' element = {<Matriculacion/>}/>
-                    <Route path='/Delete' element = {<Delete/>}></Route>
-                    <Route path='/Update' element = {<Update/>}/>
-                </Routes>                      
-            </Layout>      
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Inicio />} /> 
+                <Route path="/Secretaria/*" element={<RedirectSecretaria />} />
+                <Route path="/Docente/*" element={<RedirectDocente />} />
+            </Routes>
         </BrowserRouter>
     );
 }
