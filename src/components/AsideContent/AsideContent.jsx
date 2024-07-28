@@ -36,9 +36,9 @@ function OptionsDocente () {
                     <h3 className='title tittle-estudiante'>Gestion Estudiantes</h3>
                 </div>
                 <div className='gestion-list'>
-                    <Link className='link borrar-estudiante' to="/Docente"><button className='btn-options'>&#9658; Curso 5-2</button></Link>
-                    <Link className='link matricular-estudiante' to="/Docente"><button className='btn-options'>&#9658; Curso 5-3</button></Link>
-                    <Link className='link actualizar-estudiante' to="/Docente"><button className='btn-options'>&#9658; Curso 5-6</button></Link>
+                    <Link className='link borrar-estudiante' to="/Docente/Curso5-2"><button className='btn-options'>&#9658; Curso 5-2</button></Link>
+                    <Link className='link matricular-estudiante' to="/Docente/Curso5-3"><button className='btn-options'>&#9658; Curso 5-3</button></Link>
+                    <Link className='link actualizar-estudiante' to="/Docente/Curso5-6"><button className='btn-options'>&#9658; Curso 5-6</button></Link>
                 </div>
             </section>
     
