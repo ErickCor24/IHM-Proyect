@@ -3,7 +3,32 @@ import { Link } from 'react-router-dom'
 export function HomeDocente () {
     return(
         <>
+            <section className='home-section'>
             <h1>Bienvenido Luis Suarez</h1>
+            
+            <div className='cards-section'>
+
+                <Link  to='/Docente/Curso5-2' className='link-card card card-secretaria'>
+                        <div className='card-img-bg five'/>
+                        <label className='label-home'>Curso 5-2</label>
+                </Link>
+
+                <Link to='/Docente/Curso5-3' className='link-card card card-secretaria'>
+                        <div className='card-img-bg  six'/>
+                        <label className='label-home'>Curso 5-3</label>
+                </Link>
+
+                <Link to='/Docente/Curso5-6' className='link-card card card-secretaria'>
+                    <div className='card-img-bg seven'/>
+                    <label className='label-home'>Curso 5-6</label>
+                </Link>
+
+                <Link to='/Docente/ActualizarNotas' className='link-card card card-secretaria'>
+                    <div className='card-img-bg eight'/>
+                    <label className='label-home'>Actualizar notas</label>
+                </Link>                
+            </div>
+        </section>
         </>
     )
 }
@@ -12,7 +37,7 @@ export function HomeDocente () {
 export function HomeSecretaria () {
     return(
         <section className='home-section'>
-            <h1>Bienvenido Monica Mendoza</h1>
+            <h1>Bienvenida Monica Mendoza</h1>
             
             <div className='cards-section'>
 

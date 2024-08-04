@@ -1,4 +1,6 @@
+import { Link, Route, Routes } from 'react-router-dom';
 import './ContentCourses.css';
+import { RegistrarNota } from './RegistrarNota.jsx';
 export function ContentCourses ({course}) {
     return (
         <>
@@ -40,9 +42,14 @@ export function ContentCourses ({course}) {
                     </table>
                 </div>
                 <div className='content-button'>
-                        <button className='button-con'> Registrar</button>
+                    <Link to='/Registrar' ><button className='button-con'> Registrar</button></Link>
+
                 </div>
             </div>
+
+            <Routes>
+                <Route path='/Registrar' element={<RegistrarNota />}/>
+            </Routes>
         </>
     )
 }
