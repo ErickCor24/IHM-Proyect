@@ -15,7 +15,6 @@ export function HomeSecretaria () {
             <h1>Bienvenido Monica Mendoza</h1>
             
             <div className='cards-section'>
-
                 <Link  to='./Matriculacion' className='link-card card card-secretaria'>
                         <div className='card-img-bg one'/>
                         <label className='label-home'> Matriculacion estudiante</label>
