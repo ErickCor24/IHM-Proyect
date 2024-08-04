@@ -1,0 +1,64 @@
+.home-section{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section h1{
+    font-size: 2rem;
+}
+
+.cards-section{
+    box-sizing: border-box;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    
+    .one{
+        background: linear-gradient(to bottom, #000cb8, #0011ff);
+    }
+
+    .two{
+        background: linear-gradient(to bottom, #45e4dc, #060c61);
+    }
+
+    .three{
+        background: linear-gradient(to bottom, #791d1d, #aaaca7);
+    }
+
+    .four{
+        background: linear-gradient(to bottom, #4f9753, #060c61);
+    }
+}
+
+.card{
+    margin: 15px;
+    background-color: #fff;
+    width: 210px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0003;
+    border-bottom: 5px solid #aaaa
+}
+
+.card-img-bg{
+    margin: 5px auto;
+    border-radius: 5px 5px 0  0 ;
+    width: 95%;
+    height: 50%;
+}
+
+.label-home {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+
+.link-card{
+    text-decoration: none;
+    color: #000;
+}
