@@ -12,8 +12,8 @@ export function App(){
                 <Route path="/" element={<Inicio />} /> 
                 <Route path="/Secretaria/*" element={<RedirectSecretaria />} />
                 <Route path="/Docente/*" element={<RedirectDocente />} />
-                <Route path="/Registrar" element={<RegistrarNota />} />
-            </Routes>
+                <Route path={`/Docente/:course/Registrar`} element={<RegistrarNota />} />
+                </Routes>
         </BrowserRouter>
     );
 }

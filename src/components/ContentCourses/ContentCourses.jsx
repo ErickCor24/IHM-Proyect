@@ -1,7 +1,8 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes, useParams } from 'react-router-dom';
 import './ContentCourses.css';
 import { RegistrarNota } from './RegistrarNota.jsx';
 export function ContentCourses ({course}) {
+    const formattedCourse = course.replace(/\s+/g, '');
     return (
         <>
             <div className='content'>
@@ -42,13 +43,13 @@ export function ContentCourses ({course}) {
                     </table>
                 </div>
                 <div className='content-button'>
-                    <Link to='/Registrar' ><button className='button-con'> Registrar</button></Link>
+                <Link to={`/Docente/${formattedCourse}/Registrar`}><button className='button-con'>Registrar</button></Link>
 
                 </div>
             </div>
 
             <Routes>
-                <Route path='/Registrar' element={<RegistrarNota />}/>
+            <Route path={`/Docente/:course/Registrar`} element={<RegistrarNota />} />
             </Routes>
         </>
     )
