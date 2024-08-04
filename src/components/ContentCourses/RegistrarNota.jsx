@@ -1,11 +1,8 @@
-import { Layout } from '../LayoutProfesor/Layout'
 import './RegistrarNota.css'
 
 export function RegistrarNota() {
   return (
-    <Layout>
-      <>
-      <div className="content">
+      <div className="content">     
                 <h1>Registrar notas estudiante</h1>
                 <div className="content-busq">
                     <h3>CI Estudiante: </h3>
@@ -31,8 +28,6 @@ export function RegistrarNota() {
                         <button className='button-con'> Registrar</button>
                 </div>
             </div>
-    </>
-    </Layout>
   )
 }
 
