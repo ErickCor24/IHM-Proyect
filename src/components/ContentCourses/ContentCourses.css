@@ -3,9 +3,13 @@
 }
 
 .content-table{
+    padding: 25px 0;
     width: 100%;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 2px 15px 0 #2222;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .table-notas{
@@ -13,7 +17,10 @@
     width: 97%;
     background-color: #fff;
     padding: 25px;
-    box-shadow: 0 0  25px #2224;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    border-collapse: collapse;
 }
 .table-notas th, .table-notas td {
     text-align: center;
@@ -23,13 +30,18 @@
     text-align: left;
 }
 .table-head th{
-    background-color: #dddddd;
-    padding: 10px; 
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
+    padding: 5px;
+    background-color: #4774a8;
+    color: #f8f8f8; 
 }
 .table-row td{
-    border-bottom:2px solid #adadad; 
-    padding: 10px;
+    text-align: center;
+    border: 1px solid #2222;
+    padding: 5px;
+}
+.table-notas tr{
+    transition: 0.1s;
 }
 .content-button{
     display: flex;

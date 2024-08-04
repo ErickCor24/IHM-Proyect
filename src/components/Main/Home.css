@@ -23,15 +23,28 @@
     }
 
     .two{
-        background: linear-gradient(to bottom, #45e4dc, #060c61);
+        background: linear-gradient(to bottom, #43c8c2, #060c61);
     }
 
     .three{
-        background: linear-gradient(to bottom, #791d1d, #aaaca7);
+        background: linear-gradient(to bottom, #cb26ac, #1289a3);
     }
 
     .four{
         background: linear-gradient(to bottom, #4f9753, #060c61);
+    }
+
+    .five{
+        background: linear-gradient(to bottom, #53d48d, #8a9202);
+    }
+    .six{
+        background: linear-gradient(to bottom, #8b95bb, #084db3);
+    }
+    .seven{
+        background: linear-gradient(to bottom, #c7895c, #a31322);
+    }
+    .eight{
+        background: linear-gradient(to bottom, #bb88bb, #663371);
     }
 }
 
