@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './ContentCourses.css';
 export function ContentCourses ({course}) {
+    const formattedCourse = course.replace(/\s+/g, '');
     return (
         <>
             <div className='content'>
