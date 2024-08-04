@@ -1,0 +1,50 @@
+.content{
+    padding: 15px;
+}
+
+.content-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-notas{
+    font-size: 1.2rem;
+    width: 97%;
+    background-color: #fff;
+
+}
+.table-notas th, .table-notas td {
+    text-align: center;
+}
+
+.table-notas th:first-child, .table-notas td:first-child {
+    text-align: left;
+}
+.table-head th{
+    background-color: #dddddd;
+    padding: 10px; 
+    font-size: 1.3rem; 
+}
+.table-row td{
+    border-bottom:2px solid #adadad; 
+    padding: 10px;
+}
+.content-button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 40vb;
+}
+.button-con{
+    background-color: #fff;
+    padding: 7px 25px;
+    width: 9%;
+    border: 1px solid #2224;
+    border-radius: 3px;
+    transition: 0.2s;
+    font-size: 1.05rem;
+}
+.button-con:hover{
+    border: 1px solid #2a2;
+}
