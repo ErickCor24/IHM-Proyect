@@ -41,7 +41,7 @@ export function ContentCourses ({course}) {
                 </div>
                 <div className='content-button'>
                         <button className='button-con'> Registrar</button>
-                    </div>
+                </div>
             </div>
         </>
     )

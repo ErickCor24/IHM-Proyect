@@ -1,0 +1,85 @@
+.matriculacion-box{
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+
+.form-busqueda{
+    margin-bottom: 15px;
+}
+
+.tittle-matriculacion{
+    padding-bottom: 10px;
+}
+
+.span-matriculacion{
+    padding-right: 25px;
+}
+
+.input-matriculacion{
+    font-size: 1.05rem;
+    width: 250px;
+    margin-right: 25px;
+    padding: 7px 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fafafa;
+}
+
+.btn-matricular{
+    appearance: none;
+    padding: 7px 25px;
+    background: #fff;
+    border: 1px solid #2224;
+    border-radius: 3px;
+    font-size: 1.05rem;
+    box-shadow: 0 2px 15px 0 #2221;
+    transition: 0.2s;
+}
+
+.box-datos{
+    margin-top: 15px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 2px 15px 0 #2222;
+}
+
+.box-datos span{
+    display: block;
+}
+
+.subtittle-curso{
+    display: block;
+    margin-top: 15px;
+}
+
+.input-curso-matriculacion{
+    display: block;
+    margin: 15px 0;
+}
+
+.input-curso-matriculacion:focus{
+    border-color: #ddd;
+    outline: none;
+}
+
+.btn-registrar{
+    background-color: #3f3;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Hoovers*/
+
+.btn-matricular:hover{
+    background: #eee;
+    border: 1px solid #2a2;
+    border-radius: 5px;
+}

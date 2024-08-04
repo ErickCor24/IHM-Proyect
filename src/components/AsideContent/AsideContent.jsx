@@ -58,9 +58,9 @@ function OptionsSecretaria () {
                 </div>
 
                 <div className='gestion-list'>
-                    <Link className='link borrar-estudiante' to="/Secretaria/Delete"><button className='btn-options'>&#9658; Anular matricula</button></Link>
                     <Link className='link matricular-estudiante' to="/Secretaria/Matriculacion"><button className='btn-options'>&#9658; Matricular estudiante</button></Link>
                     <Link className='link actualizar-estudiante' to="/Secretaria/Update"><button className='btn-options'>&#9658; Cambiar curso estudiante</button></Link>
+                    <Link className='link borrar-estudiante' to="/Secretaria/Delete"><button className='btn-options'>&#9658; Anular matricula</button></Link>
                 </div>
             </section>
     
