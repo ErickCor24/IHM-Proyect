@@ -26,9 +26,9 @@ export function UpdateGrade () {
                         </tr>
                         <tr className='table-row'>
                             <td className='first-column'>Erick Alejandro Cordova Viteri</td>
-                            <td><input className='second-column' placeholder='9'></input></td>
+                            <td><input className='second-column' placeholder='10'></input></td>
                             <td><input className='thrid-column' placeholder='10'></input></td>
-                            <td><input className='fourth-column' placeholder='8'></input></td>
+                            <td><input className='fourth-column' placeholder='9.5'></input></td>
                         </tr>
                 </table>
                 </div>
