@@ -39,6 +39,8 @@ function OptionsDocente () {
                     <Link className='link borrar-estudiante' to="/Docente/Curso5-2"><button className='btn-options'>&#9658; Curso 5-2</button></Link>
                     <Link className='link matricular-estudiante' to="/Docente/Curso5-3"><button className='btn-options'>&#9658; Curso 5-3</button></Link>
                     <Link className='link actualizar-estudiante' to="/Docente/Curso5-6"><button className='btn-options'>&#9658; Curso 5-6</button></Link>
+                    <Link className='link actualizar-notas' to="/Docente/Notas"><button className='btn-options'>&#9658; Actualizar notas</button></Link>
+
                 </div>
             </section>
     

@@ -1,0 +1,39 @@
+.content{
+    padding: 15px;
+}
+.busq-cursos{
+    font-size: 1.05rem;
+    width: 250px;
+    margin-right: 25px;
+    padding: 7px 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fafafa;
+}
+.content-busq{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.content-busq select{
+    height: 7%;
+}
+.input-ci{
+    font-size: 1.05rem;
+}
+.table-row input{
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    font-size: 1.05rem;
+    width: 75px;
+    box-shadow: 0 0  15px #2224;
+    text-align: center;
+}
+.first-column{
+    width: 40%;
+}
+.second-column .third-column .fourth-column{
+    width: 20%;
+}

@@ -8,34 +8,34 @@ export function ContentCourses ({course}) {
                 <div className='content-table'>
                     <table className='table-notas'>
                         <tr className='table-head'>
-                            <th>Estudiante</th>
-                            <th>G.Formativa</th>
-                            <th>G.Práctica</th>
-                            <th>Acre. y Val.</th>
+                            <th className='first-column'>Estudiante</th>
+                            <th className='second-column'>G.Formativa</th>
+                            <th className='third-column'>G.Práctica</th>
+                            <th className='fourth-column'>Acre. y Val.</th>
                         </tr>
                         <tr className='table-row'>
-                            <td>Daniel Mateo Aguilar Villafuerte</td>
-                            <td>9</td>
-                            <td>9.5</td>
-                            <td>10</td>
+                            <td className='first-column'>Daniel Mateo Aguilar Villafuerte</td>
+                            <td className='second-column'>9</td>
+                            <td className='third-column'>9.5</td>
+                            <td className='fourth-column'>10</td>
                         </tr>
                         <tr className='table-row'>
-                            <td>Camillie Thais Ayovi Villafuerte</td>
-                            <td>10</td>
-                            <td>9.5</td>
-                            <td>10</td>
+                            <td className='first-column'>Camillie Thais Ayovi Villafuerte</td>
+                            <td className='second-column'>10</td>
+                            <td className='third-column'>9.5</td>
+                            <td className='fourth-column'>10</td>
                         </tr>
                         <tr className='table-row'>
-                            <td>Erick Alejandro Cordova Viteri</td>
-                            <td>10</td>
-                            <td>10</td>
-                            <td>9.5</td>
+                            <td className='first-column'>Erick Alejandro Cordova Viteri</td>
+                            <td className='second-column'>10</td>
+                            <td className='third-column'>10</td>
+                            <td className='fourth-column'>9.5</td>
                         </tr>
                         <tr className='table-row'>
-                            <td>Cesar Alexander Tipan Anton</td>
-                            <td>10</td>
-                            <td>9.5</td>
-                            <td>9.9</td>
+                            <td className='first-column'>Cesar Alexander Tipan Anton</td>
+                            <td className='second-column'>10</td>
+                            <td className='third-column'>9.5</td>
+                            <td className='fourth-column'>9.9</td>
                         </tr>
                     </table>
                 </div>
