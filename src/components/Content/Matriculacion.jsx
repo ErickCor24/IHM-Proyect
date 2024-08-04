@@ -22,10 +22,11 @@ export function Matriculacion (){
             <form className='form-datos' action="">
             <span className='subtittle-curso'>Curso</span>
                 <select className='input-curso-matriculacion input-matriculacion' name="" id="">
+                    <option className='option' value="curso1" defaultChecked> Seleccione el curso... </option>
                     <option className='option' value="curso1"> Curso 5-1 </option>
                     <option className='option' value="curso1"> Curso 5-3 </option>
                     <option className='option' value="curso1"> Curso 5-4 </option>
-                    <option className='option' value="curso1"> Curso 5-4 </option>
+                    <option className='option' value="curso1"> Curso 5-6 </option>
                 </select>
                 <button className='btn-matricular btn-registrar'>Registrar</button>
             </form>

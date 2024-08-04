@@ -1,0 +1,59 @@
+.link-home-secretaria{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-decoration: none;
+    width: 250px;
+    
+}
+
+.table-vista-secretaria{
+    margin: 0 auto;
+    width: 95%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.btn-home-secretaria{
+    border-radius: 3px;
+    border: 1px solid #2224;
+    transition: 0.2s;
+    font-size: 1.05rem;
+    background: #3f3;
+    width: 100%;
+    padding: 7px 5px;
+
+    &:hover{
+        border: 1px solid #2a2;
+    }
+}
+
+
+.table-vista-secretaria tr{
+    transition: 0.1s;
+}
+
+.table-vista-secretaria th{
+    padding: 5px;
+    background-color: #4774a8;
+    color: #f8f8f8;
+}
+
+.table-vista-secretaria td{
+    text-align: center;
+    border: 1px solid #2222;
+    padding: 5px;
+}
+
+.table-vista-secretaria tr:hover{
+    background-color: #4774a815;
+}
+
+.box-datos-vista{
+    padding: 25px 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 2px 15px 0 #2222;
+    border-radius: 5px;
+}
+
