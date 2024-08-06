@@ -4,11 +4,11 @@ export function Matriculacion (){
     return(
         <section className="matriculacion-box">
             <h2 className='tittle-matriculacion'>Matricular estudiante</h2>
-            <form className='form-busqueda' action="">
+            <div className='form-busqueda' action="">
                 <span className='span-matriculacion ci-estudiante'>Ci estudiante: </span>
                 <input className='input-ci-matriculacion input-matriculacion' type="" placeholder='Cedula del estudiante'/>
                 <button className='btn-matricular btn-buscar-cedula'>Buscar</button>
-            </form>
+            </div>
             
             <span className='span-matriculacion datos-estudiante'>Datos</span>
             <section className='box-datos'>
@@ -19,7 +19,7 @@ export function Matriculacion (){
                 <span>Direccion:</span>
             </section>
 
-            <form className='form-datos' action="">
+            <div className='form-datos' action="">
             <span className='subtittle-curso'>Curso</span>
                 <select className='input-curso-matriculacion input-matriculacion' name="" id="">
                     <option className='option' value="curso1" defaultChecked> Seleccione el curso... </option>
@@ -29,7 +29,7 @@ export function Matriculacion (){
                     <option className='option' value="curso1"> Curso 5-6 </option>
                 </select>
                 <button className='btn-matricular btn-registrar'>Registrar</button>
-            </form>
+            </div>
         </section>
     )
 }

@@ -14,7 +14,7 @@ export function UpdateGrade () {
                 </div>
                 <div className="content-busq">
                     <h3>CI Estudiante: </h3>
-                    <input className='input-ci' type='text' placeholder='Ingrese CI del estudiante'></input>
+                    <input className='input-ci input-matriculacion' type='text' placeholder='Ingrese CI del estudiante'></input>
                 </div>
                 <div className='content-table'>
                 <table className='table-notas'>
