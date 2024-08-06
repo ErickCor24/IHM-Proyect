@@ -25,10 +25,10 @@ export function Inicio (){
                 </div>
             </div>
 
-            <Routes>
+            {/* <Routes>
                 <Route path='/Secretaria' element={<RedirectSecretaria />} />
                 <Route path='/Docente' element={<RedirectDocente />} />
-            </Routes>
+            </Routes> */}
         </>
     )
 }
