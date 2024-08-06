@@ -9,10 +9,12 @@ export function App(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Inicio />} /> 
+                {/* <Route path="/" element={<Inicio />} /> 
                 <Route path="/Secretaria/*" element={<RedirectSecretaria />} />
-                <Route path="/Docente/*" element={<RedirectDocente />} />
-                {/* <Route path={`/Docente/:course./Registrar`} element={<RegistrarNota />} /> */}
+                <Route path="/Docente/*" element={<RedirectDocente />} /> */}
+                <Route exact path="/" render={() => <Inicio />} />
+                <Route exact path="/Secretaria" render={() => <RedirectSecretaria />} />
+                <Route exact path="/Docente" render={() => <RedirectDocente />} />
                 </Routes>
         </BrowserRouter>
     );
