@@ -1,4 +1,5 @@
 import './RegistrarNota.css'
+import { handleDoNothing } from '../../App';
 
 export function RegistrarNota() {
   return (
@@ -6,7 +7,7 @@ export function RegistrarNota() {
                 <h1>Registrar notas estudiante</h1>
                 <div className="content-busq">
                     <h3>CI Estudiante: </h3>
-                    <input className='input-ci' type='text' placeholder='Ingrese CI del estudiante'></input>
+                    <input className='input-ci input-matriculacion' type='text' placeholder='Ingrese CI del estudiante'></input>
                 </div>
                 <div className='content-table'>
                 <table className='table-notas'>

@@ -1,5 +1,5 @@
 import './Matriculacion.css';
-import { handleDoNothing } from '../../';
+import { handleDoNothing } from '../../App';
 
 export function Matriculacion() {
 

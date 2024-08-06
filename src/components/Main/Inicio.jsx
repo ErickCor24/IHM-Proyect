@@ -20,8 +20,8 @@ export function Inicio (){
                     </div>
                 </div>
                 <div className='container-buttons'>
-                    <Link className='buttons' to='/Docente'><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Profesor</button></Link>
-                    <Link className='buttons' to='/Secretaria'><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Secretaria</button></Link>
+                    <Link className='buttons' to='/Docente'><button className='btn-options'>&#9658; Profesor</button></Link>
+                    <Link className='buttons' to='/Secretaria'><button className='btn-options'>&#9658; Secretaria</button></Link>
                 </div>
             </div>
 

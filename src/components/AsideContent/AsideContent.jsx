@@ -5,6 +5,7 @@ import estudiantes from '../images/estudiantes.png'
 import curso from '../images/curso.png'
 import './AsideContent.css'
 import { Link } from 'react-router-dom'
+import { handleDoNothing } from '../../App';
 
 export function SideRequeriments({name, type}){
     return(
@@ -36,10 +37,10 @@ function OptionsDocente () {
                     <h3 className='title tittle-estudiante'>Gestion Estudiantes</h3>
                 </div>
                 <div className='gestion-list'>
-                    <Link className='link borrar-estudiante' to="/Docente/Curso5-2"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Curso 5-2</button></Link>
-                    <Link className='link matricular-estudiante' to="/Docente/Curso5-3"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Curso 5-3</button></Link>
-                    <Link className='link actualizar-estudiante' to="/Docente/Curso5-6"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Curso 5-6</button></Link>
-                    <Link className='link actualizar-notas' to="/Docente/ActualizarNotas"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Actualizar notas</button></Link>
+                    <Link className='link borrar-estudiante' to="/Docente/Curso5-2"><button className='btn-options'>&#9658; Curso 5-2</button></Link>
+                    <Link className='link matricular-estudiante' to="/Docente/Curso5-3"><button className='btn-options'>&#9658; Curso 5-3</button></Link>
+                    <Link className='link actualizar-estudiante' to="/Docente/Curso5-6"><button className='btn-options'>&#9658; Curso 5-6</button></Link>
+                    <Link className='link actualizar-notas' to="/Docente/ActualizarNotas"><button className='btn-options'>&#9658; Actualizar notas</button></Link>
                 </div>
             </section>
     
@@ -59,9 +60,9 @@ function OptionsSecretaria () {
                 </div>
 
                 <div className='gestion-list'>
-                    <Link className='link matricular-estudiante' to="/Secretaria/Matriculacion"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Matricular estudiante</button></Link>
-                    <Link className='link actualizar-estudiante' to="/Secretaria/Update"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Cambiar curso estudiante</button></Link>
-                    <Link className='link borrar-estudiante' to="/Secretaria/Delete"><button className='btn-options' onSubmit={handleDoNothing}>&#9658; Anular matricula</button></Link>
+                    <Link className='link matricular-estudiante' to="/Secretaria/Matriculacion"><button className='btn-options'>&#9658; Matricular estudiante</button></Link>
+                    <Link className='link actualizar-estudiante' to="/Secretaria/Update"><button className='btn-options'>&#9658; Cambiar curso estudiante</button></Link>
+                    <Link className='link borrar-estudiante' to="/Secretaria/Delete"><button className='btn-options'>&#9658; Anular matricula</button></Link>
                 </div>
             </section>
     
@@ -71,7 +72,7 @@ function OptionsSecretaria () {
                     <h3 className='title tittle-cursos'>Gestion de Cursos</h3>
                 </div>
                 <div className='gestion-list'>
-                    <Link className='link ver-cursos' to="/Secretaria/Vista"> <button className='btn-options' onSubmit={handleDoNothing}>&#9658; Visualizar cupos y cursos</button></Link>
+                    <Link className='link ver-cursos' to="/Secretaria/Vista"> <button className='btn-options'>&#9658; Visualizar cupos y cursos</button></Link>
                 </div>    
             </section>
         </div>           

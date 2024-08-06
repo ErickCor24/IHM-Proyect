@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import './ContentCourses.css';
+import { handleDoNothing } from '../../App';
+
 export function ContentCourses ({course}) {
     const formattedCourse = course.replace(/\s+/g, '');
     return (
@@ -42,7 +44,7 @@ export function ContentCourses ({course}) {
                     </table>
                 </div>
                 <div className='content-button'>
-                    <Link to='./Registrar' ><button className='button-con' onSubmit={handleDoNothing}> Registrar</button></Link>
+                    <Link to='./Registrar' ><button className='button-con'> Registrar</button></Link>
 
                 </div>
             </div>

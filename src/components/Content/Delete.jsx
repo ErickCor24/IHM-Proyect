@@ -1,4 +1,6 @@
 import './Delete.css'
+import { handleDoNothing } from '../../App';
+
 export function Delete (){
     return(
         <section className="matriculacion-box">
