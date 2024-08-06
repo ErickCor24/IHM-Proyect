@@ -1,4 +1,4 @@
-# Pasos para inciar el proyecto
+# Pasos para iniciar el proyecto
 
 ## Pre-requisitos
 - Node v20+
