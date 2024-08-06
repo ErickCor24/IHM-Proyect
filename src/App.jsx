@@ -9,7 +9,7 @@ export function App(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Inicio />} /> 
+                <Route path="/*" element={<Inicio />} /> 
                 <Route path="/Secretaria/*" element={<RedirectSecretaria />} />
                 <Route path="/Docente/*" element={<RedirectDocente />} />
                 {/* <Route path={`/Docente/:course./Registrar`} element={<RegistrarNota />} /> */}
