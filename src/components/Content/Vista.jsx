@@ -43,7 +43,7 @@ export function Vista (){
                 </table>
             </div>
             
-            <Link className='link-home-secretaria' to="/secretaria"><button className='btn-home-secretaria'>Regresar a Inicio</button></Link>
+            <Link className='link-home-secretaria' to="/secretaria"><button className='btn-home-secretaria' onSubmit={handleDoNothing}>Regresar a Inicio</button></Link>
 
         </section>
     )

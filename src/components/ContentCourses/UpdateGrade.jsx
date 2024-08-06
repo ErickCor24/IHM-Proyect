@@ -33,7 +33,7 @@ export function UpdateGrade () {
                 </table>
                 </div>
                 <div className='content-button'>
-                        <button className='button-con'> Actualizar</button>
+                        <button className='button-con' onSubmit={handleDoNothing}> Actualizar</button>
                 </div>
             </div>
         </>

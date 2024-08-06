@@ -25,7 +25,7 @@ export function RegistrarNota() {
                 </table>
                 </div>
                 <div className='content-button'>
-                        <button className='button-con'> Registrar</button>
+                        <button className='button-con' onSubmit={handleDoNothing}> Registrar</button>
                 </div>
             </div>
   )

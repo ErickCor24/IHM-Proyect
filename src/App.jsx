@@ -17,3 +17,7 @@ export function App(){
         </BrowserRouter>
     );
 }
+
+export function handleDoNothing(event){
+    event.preventDefault();
+};
