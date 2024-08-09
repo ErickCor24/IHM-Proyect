@@ -8,8 +8,9 @@ import { HomeSecretaria } from './Home.jsx';
 
 export function RedirectSecretaria(){
     return(
+        <BrowserRouter>
             <Layout>
-                <BrowserRouter>
+                
                     <Routes>
                         <Route path='/' element = {<HomeSecretaria/>}/>
                         <Route path='/Matriculacion' element = {<Matriculacion/>}/>
@@ -17,7 +18,8 @@ export function RedirectSecretaria(){
                         <Route path='/Update' element = {<Update/>}/>
                         <Route path='/Vista' element = {<Vista/>}/>
                     </Routes>
-                </BrowserRouter>
+                
             </Layout>
+        </BrowserRouter>
     );
 }
